@@ -19,6 +19,7 @@ gcc pendulum.c -I /opt/X11/include -L /opt/X11/lib -lX11 -o pendulum
 - ln：nつ目の振り子の糸の長さ[m]，m1：nつ目の振り子の質量[kg]，thetan；nつ目の振り子の鉛直下向き方向からの角度[rad]（図参照）
 - 引数をなにも取らないと l1=1.4, l2=1.2, m1=1.2, m2=0.4, theta1=3.5, theta2=1.0 とします．
 ![pendulum](http://i.imgur.com/da7gB5V.png)
+- 実行すると`pendulum_m{1,2}.out`が生成されます．これには`x y`の形式でx座標とy座標が回数分だけ格納されています．gnuplotなどで軌跡を可視化できます．
 
 ## ライセンス
 MIT License
